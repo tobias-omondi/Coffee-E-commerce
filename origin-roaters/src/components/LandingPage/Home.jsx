@@ -6,7 +6,8 @@ const Home = () => {
     <div className="relative h-screen overflow-hidden">
       {/* Video */}
       <video
-        src="https://res.cloudinary.com/djyfoquip/video/upload/5991949-hd_1920_1080_30fps_vrbhmi.mp4"
+        src="https://res.cloudinary.com/djyfoquip/video/upload/4819599-uhd_4096_2160_25fps_gfqvdt.mp4
+"
         className="absolute top-0 left-0 object-cover home-video"
         autoPlay
         muted
