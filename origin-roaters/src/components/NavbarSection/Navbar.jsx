@@ -5,8 +5,7 @@ import './Navbar.css'
 
 const Navbar = () => {
   return (
-    <div>
-      <nav className='navbar-background flex flex-row justify-between items-center p-4'>
+      <nav className='sticky top-0 w-full navbar-background flex flex-row justify-between items-center'>
         <h1 className='heading-text text-3xl logo'>Origin <span className='span-logo'> Roasters </span> </h1>
     
       {/* Nav links */}
@@ -27,7 +26,6 @@ const Navbar = () => {
       </div>
 
       </nav>
-    </div>
   )
 }
 

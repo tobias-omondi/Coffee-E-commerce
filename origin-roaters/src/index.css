@@ -25,8 +25,14 @@ h3, h4, h5, h6, p, a, li,span, div {
   font-weight: bold;
 }
 
-body, html {
+ body, html {
   background-color: #FAFAFA ;
+ 
+}
+* {
+   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* DEFAULT SCROLL */
