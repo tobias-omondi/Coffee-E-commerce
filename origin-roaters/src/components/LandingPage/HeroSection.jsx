@@ -3,6 +3,7 @@ import Home from './Home'
 import ProductShowCase from './ProductShowCase'
 import ProductStory from './ProductStory'
 import ShowSell from './ShowSell'
+import PageStory from './PageStory'
 
 const HeroSection = () => {
   return (
@@ -29,6 +30,10 @@ const HeroSection = () => {
 
       <div>
         <ShowSell />
+      </div>
+
+          <div>
+        <PageStory />
       </div>
     </div>
   )

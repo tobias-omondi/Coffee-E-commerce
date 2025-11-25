@@ -3,7 +3,7 @@ import React from 'react'
 // import images here
 import SalesImage1 from "/src/assets/package-coffee.jpg";
 import SalesImage2 from "/src/assets/coffee-beans-bag.avif";
-import SalesImage3 from "/src/assets/coffee-machine.avif";
+import SalesImage3 from "/src/assets/coffee-machine-4413345_1280.avif";
 
 import './Home.css'
 
