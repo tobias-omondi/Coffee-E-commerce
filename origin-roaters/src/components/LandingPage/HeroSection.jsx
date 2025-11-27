@@ -4,6 +4,7 @@ import ProductShowCase from './ProductShowCase'
 import ProductStory from './ProductStory'
 import ShowSell from './ShowSell'
 import PageStory from './PageStory'
+import Testimonials from './Testimonials'
 
 const HeroSection = () => {
   return (
@@ -32,8 +33,12 @@ const HeroSection = () => {
         <ShowSell />
       </div>
 
-          <div>
+     <div>
         <PageStory />
+      </div>
+      {/* testimonials */}
+      <div>
+        <Testimonials />
       </div>
     </div>
   )
