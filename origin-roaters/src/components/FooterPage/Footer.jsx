@@ -45,7 +45,7 @@ const Footer = () => {
           <p>Privacy Policy</p>
         </div>
         <div>
-          <p>developed by Tobias Ogola</p>
+          <p>developed by Tobias</p>
         </div>
       </div>
     </div>
