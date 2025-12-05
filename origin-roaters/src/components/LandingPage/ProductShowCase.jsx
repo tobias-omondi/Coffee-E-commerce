@@ -28,16 +28,16 @@ const ProductShowCase = () => {
   return (
     <div>
       <div className='product-heading'> 
-        <h1>TASTE THE ORIGIN</h1>
+        <h1 className='text-3xl md:text-5xl font-bold'>TASTE THE ORIGIN</h1>
       </div>
 
-      <div className='product-container '>
+      <div className='product-container flex flex-col md:flex-row'>
         {coffeeProducts.map((product) => (
           <div key={product.id} className='product-card'>
             
             {/* only show image if it exists */}
             {product.image && (
-              <img src={product.image} alt="coffee product" className='product-image' />
+              <img src={product.image} alt="coffee product" className='product-image rounded md:h-auto'/>
             )}
 
             <div className='flex flex-row justify-between w-full '> 
