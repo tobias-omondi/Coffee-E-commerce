@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { ShoppingCart, Menu, X } from 'lucide-react'
+import { ShoppingCart, Equal, X } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import './Navbar.css'
 
@@ -38,9 +38,9 @@ const Navbar = () => {
         <button
           aria-label='Toggle menu'
           onClick={() => setOpen(prev => !prev)}
-          className='p-2 rounded-md bg-white/10'
+          className='p-2 rounded-md'
         >
-          {open ? <X /> : <Menu />}
+          {open ? <X size={25}/> : <Equal size={25} />}
         </button>
       </div>
 
