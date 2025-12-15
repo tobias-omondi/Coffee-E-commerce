@@ -7,7 +7,7 @@ const CoffeePackage3d = () => {
   const {scene} = useGLTF ('/coffee_cup_gameready_free_dl/scene.gltf')
   return (
     <div className='w-[400px] h-[600px] object-cover'>
-      <Canvas camera={{ position: [-2, 4, 5], fov: 40}}  gl={{ antialias: true }}>
+      <Canvas camera={{ position: [-2, 4, 5], fov: 40}}  gl={{ antialias: true }} dpr={2}>
         <hemisphereLight intensity={1} skyColor="white" groundColor="gray" />
           <ambientLight intensity={7} />
           <directionalLight position={[9, 10, 6]} intensity={6}
