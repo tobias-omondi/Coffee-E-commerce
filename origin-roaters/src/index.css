@@ -20,13 +20,13 @@ h3, h4, h5, h6, p, a, li,span, div {
   font-weight: bold;
 }
 .span-logo{
-  color : #D84315;
+  color : black;
   font-family: 'Pencerio', cursive;
   font-weight: bold;
 }
 
  body, html {
-  background-color: #FAFAFA ;
+  background-color: #038363 ;
  
 }
 /* * {

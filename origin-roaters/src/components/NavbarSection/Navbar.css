@@ -1,10 +1,10 @@
 .navbar-background {
-  background: rgba(3, 131, 99, 0.35); 
+  background: rgba(255, 255, 255, 0.35); 
   backdrop-filter: blur(15px);  
   -webkit-backdrop-filter: blur(15px);/* safari support */
   padding: 10px;
   border-radius: 25px;
-  border: 1px solid rgba(243, 242, 242, 0.15);
+  border: 1px solid rgba(9, 255, 62, 0.15);
 }
 
 .dropdown-background{

@@ -6,8 +6,8 @@ const ProductStory = () => {
   return (
     <div className='flex flex-row justify-center items-center h-screen px-20'>
       <div>
-        <h1 className='text-3xl text-gray-900 font-bold'>EVERY BEAN HAS A STORY</h1>
-        <p className='w-2/3 text-gray-700'>Our coffee journey begins 1,700 meters above sea level in the 
+        <h1 className='text-3xl text-my-custom-warm font-bold'>EVERY BEAN HAS A STORY</h1>
+        <p className='w-3/4 text-gray-900 text-xl font-light mt-5'>Our coffee journey begins 1,700 meters above sea level in the 
            fertile highlands of East Africa. Each bean is handpicked by 
            smallholder farmers who have perfected their craft over 
            generations. From soil to cup, we honor their dedication by 

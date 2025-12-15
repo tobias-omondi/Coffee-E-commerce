@@ -9,8 +9,8 @@ const CoffeePackage3d = () => {
     <div className='w-[400px] h-[600px] object-cover'>
       <Canvas camera={{ position: [-2, 4, 5], fov: 40}}  gl={{ antialias: true }} dpr={2}>
         <hemisphereLight intensity={1} skyColor="white" groundColor="gray" />
-          <ambientLight intensity={7} />
-          <directionalLight position={[9, 10, 6]} intensity={6}
+          <ambientLight intensity={1.5} />
+          <directionalLight position={[9, 10, 6]} intensity={9}
           castShadow
           shadow-mapSize-width={1024}
           shadow-mapSize-height={1024} 
