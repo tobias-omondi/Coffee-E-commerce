@@ -4,7 +4,7 @@ import { useGLTF } from '@react-three/drei';
 
 const CoffeePackage3d = () => {
 
-  const {scene} = useGLTF ('public/coffee_cup_gameready_free_dl/scene.gltf')
+  const {scene} = useGLTF ('/coffee_cup_gameready_free_dl/scene.gltf')
   return (
     <div className='w-[400px] h-[600px] object-cover'>
       <Canvas camera={{ position: [-2, 4, 5], fov: 40}}  gl={{ antialias: true }}>
