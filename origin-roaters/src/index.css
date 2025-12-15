@@ -2,7 +2,7 @@
 
   @theme {
       --color-my-custom-warm: #FFF8E1 ; 
-      --color-my-custom-orange-light:  #D84315 ;
+      --color-my-custom-green-light:  #038363 ;
       --color-my-custom-blue-dark: #21618c;
     }
 
@@ -29,11 +29,11 @@ h3, h4, h5, h6, p, a, li,span, div {
   background-color: #FAFAFA ;
  
 }
-* {
+/* * {
    margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} */
 
 /* DEFAULT SCROLL */
 

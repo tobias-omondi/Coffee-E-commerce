@@ -1,6 +1,3 @@
-import React from 'react'
-import './Home.css'
-
 // import images here
 import coffeeimage1 from '/src/assets/coffee-563800_1280.avif'
 import coffeeimage2 from '/src/assets/coffee-3759024_1280.avif'
@@ -9,8 +6,8 @@ const coffeeProducts = [
   {
     id: 1,
     image: coffeeimage1,
-    name: "1package",
-    price: "Ksh 1000",
+    name: "Coffee farm",
+    price: "......",
   },
   {
     id: 2,
@@ -19,38 +16,36 @@ const coffeeProducts = [
   {
     id: 3,
     image: coffeeimage2,
-    name: "Coffee Machine",
+    name: "Ripe Coffee",
     price: "Ksh 25000",
   },
 ]
 
 const ProductShowCase = () => {
   return (
-    <div>
-      <div className='product-heading'> 
+      <div className='m-10 overflow-hidden'> 
         <h1 className='text-3xl md:text-5xl font-bold'>TASTE THE ORIGIN</h1>
-      </div>
-
-      <div className='product-container flex flex-col md:flex-row'>
+        
+      <div className='flex flex-col md:flex-row justify-center items-center mt-10'>
         {coffeeProducts.map((product) => (
-          <div key={product.id} className='product-card'>
+          <div key={product.id} className='w-full'>
             
             {/* only show image if it exists */}
             {product.image && (
-              <img src={product.image} alt="coffee product" className='product-image rounded md:h-auto'/>
+              <img src={product.image} alt="coffee product" className='rounded h-[420px] w-[700px] object-cover'/>
             )}
 
             <div className='flex flex-row justify-between w-full '> 
             {/* only show name if it exists */}
-            {product.name && <h4 className='text-2xl'>{product.name}</h4>}
+            {product.name && <h4 className='text-xl italic font-bold'>{product.name}</h4>}
 
             {/* only show price if it exists */}
-            {product.price && <p className='text-my-custom-orange-light text-2xl'>{product.price}</p>}
+            {product.price && <p className='text-my-custom-green-light text italic'>{product.price}</p>}
 
             </div>
 
             {/* description for the text-only card */}
-            {product.description && <p className='text-center text-xl'>{product.description}</p>}
+            {product.description && <p className='text-center text'>{product.description}</p>}
           </div>
         ))}
       </div>

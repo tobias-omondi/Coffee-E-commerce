@@ -8,7 +8,7 @@ const Home = () => {
       <div className="absolute top-5 left-0 right-0 z-30 flex justify-center">
         <Navbar />
       </div>
-    <div className="relative min-h-[80vh] md:h-screen overflow-hidden">
+    <div className="relative min-h-[90vh] md:h-screen overflow-hidden">
       {/* Video */}
       <video
         src="https://res.cloudinary.com/djyfoquip/video/upload/4821909-uhd_4096_2160_25fps_djpljv.mp4"

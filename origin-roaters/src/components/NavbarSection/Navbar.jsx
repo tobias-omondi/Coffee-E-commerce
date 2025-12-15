@@ -22,11 +22,11 @@ const Navbar = () => {
   )
 
   return (
-    <nav className='w-full md:w-3/4 navbar-background flex items-center justify-between rounded-3xl mx-auto px-4 py-3 relative'>
+    <nav className='w-full md:w-3/4 navbar-background flex items-center justify-between rounded-3xl mx-auto px-3 py-3 relative'>
       <h1> <span className='span-logo'> Roasters </span> </h1>
 
       {/* Desktop links */}
-      <ul className='hidden md:flex text-my-custom-warm flex-row gap-10 px-5 font-medium items-center'>
+      <ul className='hidden md:flex text-my-custom-warm flex-row gap-5 px-5 font-normal items-center'>
         <NavLinks />
       </ul>
 

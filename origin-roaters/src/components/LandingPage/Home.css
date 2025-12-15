@@ -3,48 +3,6 @@
   /* height: auto; */
   object-fit: cover;
 }
-
-.product-heading{
-  font-size: 4.3rem;
-  font-weight: 500;
-  margin: 20px;
-  color:  #202020;
-}
-.product-container{
-  margin: 20px;
-  display: flex;
-}
-
-.product-card{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  width: 100%;
-}
-/* .product-image {
-  width: 700px;
-  max-width: 100%;
-  height: auto;
-  height: 500px;
-  object-fit: cover;
-  border-radius: 5px;
-} */
-
-.product-story-heading{
-  font-size: 4.3rem;
-  width: 80%;
-}
-
-.product-story-pargh {
-  width: 100%;
-  max-width: 500px;
-}
-
-.product-story-pargh p {
-  font-size: 1.2rem;
-}
-
 .salesImage_container img{
   width: 400px;
   max-width: 100%;
