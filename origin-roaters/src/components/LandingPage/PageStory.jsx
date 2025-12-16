@@ -1,32 +1,39 @@
 import React from 'react'
-import './Home.css'
+import CoffeePackage3d from '../threedPackage/CoffeePackage33d';
 
 const PageStory = () => {
   return (
-    <div className='flex flex-row justify-center items-center h-screen'>
-      <div>
+    <div className='flex flex-col md:flex-row justify-center items-center gap-10 px-5 py-10 m-10'>
+
+      <div><CoffeePackage3d /></div>
+      
+      {/* Added space-y-6 to create uniform vertical spacing between the heading and paragraphs */}
+      <div className='w-full flex flex-col space-y-6'>
 
         {/* heading pargh */}
-        <h1 >From our roastery to your morning ritual in three easy steps</h1>
+        <h1 className='text-my-custom-warm text-3xl md:text-5xl font-black text-start  w-full md:w-full md:ml-auto space-x-5'>
+          FROM OUR ROASTERY TO YOUR MORNING RITUAL IN THREE EASY STEPS
+        </h1>
 
+        <p className='w-full text-start md:w-full text-gray-900 md:ml-auto'>
+          Explore our collection of specialty beans from across 
+          East Africa. Filter by origin, roast level, or flavor 
+          profile to find your perfect match.
+        </p> 
 
-        <p className='product-story-pargh'>Explore our collection of specialty beans from across 
-         East Africa. Filter by origin, roast level, or flavor 
-         profile to find your perfect match.
-        </p> <br/>
+        <p className='w-full text-start md:w-full text-gray-900  md:ml-auto'>
+          Your order triggers a fresh roast in our Nairobi 
+          roastery. We roast in small batches to ensure peak 
+          flavor and quality.
+        </p>
 
-         <p className='product-story-pargh'>Your order triggers a fresh roast in our Nairobi 
-            roastery. We roast in small batches to ensure peak 
-            flavor and quality.
-         </p> <br/>
-
-         <p className='product-story-pargh'>Your coffee is packaged and delivered within 48 hours. 
-            No warehouses. No sitting on shelves. Just fresh coffee, 
-            straight to your door.
+        <p className='w-full text-start md:w-full text-gray-900 md:ml-auto'>
+          Your coffee is packaged and delivered within 48 hours. 
+          No warehouses. No sitting on shelves. Just fresh coffee, 
+          straight to your door.
         </p>
       </div>
 
-      {/*  */}
     </div>
   )
 }

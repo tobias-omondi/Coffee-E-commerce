@@ -1,11 +1,10 @@
 import React from 'react'
 
 // import images here
-import SalesImage1 from "/src/assets/package-coffee.jpg";
-import SalesImage2 from "/src/assets/coffee-beans-bag.avif";
-import SalesImage3 from "/src/assets/coffee-machine-4413345_1280.avif";
+import SalesImage1 from "/src/assets/package_cofe.avif";
+import SalesImage2 from "/src/assets/coffee-bag.avif";
+import SalesImage3 from "/src/assets/coffee machine.avif";
 
-import './Home.css'
 
 const saleShopping = [
   {
@@ -35,18 +34,16 @@ const saleShopping = [
 
 const ShowSell = () => {
   return (
-    <div className='h-screen'>
-      <div className='flex flex-row justify-evenly items-center text-center'>
+      <div className='flex flex-col md:flex-row justify-evenly items-center text-center'>
         {saleShopping.map((item) => (
-          <div key={item.id} className='salesImage_container' > 
-          <img src ={item.image} alt = "sale item" />
-          <h2>{item.title}</h2>
-          <p> {item.description }</p>
-          <h5>{item.price}</h5>
+          <div key={item.id} className='flex flex-col items-center gap-3 md:gap-6 w-3/4 ' > 
+          <img src ={item.image} alt = "sale item" className='w-full md:w-[400px] object-cover h-[350px] md:h-[400px] rounded-xl' />
+          <h2 className='text-my-custom-warm font-bold text-2xl'>{item.title}</h2>
+          <p className='text-gray-900'> {item.description }</p>
+          <h5 className='text-gray-900 italic font-medium text-xl'>{item.price}</h5>
           </div>
         ))}
       </div>
-    </div>
   )
 }
 

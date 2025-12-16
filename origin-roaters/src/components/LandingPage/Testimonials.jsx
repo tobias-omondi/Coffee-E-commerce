@@ -1,56 +1,68 @@
-import React from 'react'
-import './Home.css'
+import React from "react";
 
-// testimonials data
+// assets
+import testimonialsimg1 from "/src/assets/lady.jpeg";
+import testimonialsimg2 from "/src/assets/gentleman.jpeg";
+import testimonialsimg3 from "/src/assets/gentleman2.jpeg";
 
-import testimonialsimg1 from "/src/assets/lady.jpeg"
-import testimonialsimg2 from "/src/assets/gentleman.jpeg"
-import testimonialsimg3 from "/src/assets/gentleman2.jpeg"
-import Footer from '../FooterPage/Footer'
+// components
+import Footer from "../FooterPage/Footer";
 
 const testimonialsData = [
   {
     image: testimonialsimg1,
     name: "Jane Doe",
-    feedback: "Amazing coffee! The freshness and flavor are unmatched. Highly recommeded! ",
+    feedback:
+      "Amazing coffee! The freshness and flavor are unmatched. Highly recommended.",
   },
   {
     image: testimonialsimg2,
     name: "Morgan Mutua",
-    feedback: "Love the Taste and Aroma of the coffee. It has become a staple in my daily routine.",
+    feedback:
+      "Love the taste and aroma. It's become a staple in my daily routine.",
   },
   {
     image: testimonialsimg3,
     name: "Tobias Ogola",
-    feedback: "Well packed and delivered on time. The coffee exceeded my expextations!. It also has a great story behind it.",
+    feedback:
+      "Well packed and delivered on time. The coffee exceeded my expectations and has a great story behind it.",
   },
-]
+];
 
 const Testimonials = () => {
   return (
-    <div className='h-screen'>
-      <div className='testimonials-heading'>
-        <h1>What Other's Say</h1>
+    <>
+      <div className="max-w-6xl mx-auto px-4">
+        <h2 className="text-center text-3xl md:text-4xl font-bold text-my-custom-warm mb-8">
+          What Others Say
+        </h2>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+          {testimonialsData.map(({ image, name, feedback }, idx) => (
+            <article
+              key={idx}
+              className="bg-green-300/90 rounded-lg shadow-md p-6 flex flex-col items-center text-center"
+              aria-label={`Testimonial from ${name}`}
+            >
+              <img
+                src={image}
+                alt={`Photo of ${name}`}
+                className="w-24 h-24 object-cover rounded-full mb-4"
+              />
+              <h3 className="font-semibold text-lg text-my-custom-warm mb-2">
+                {name}
+              </h3>
+              <p className="text-gray-700 text-sm">{feedback}</p>
+            </article>
+          ))}
+        </div>
       </div>
 
-      {/* mapping the testimonials data */}
-      <div className=' flex flex-row justify-center items-center gap-10 '>
-        {testimonialsData.map (( testimonials, items) => {
-          return (
-            <div key={items} className='testimonials-container'>
-              <div className='testimonials-card'>
-                <img src={testimonials.image} alt='testimonals image' />
-                <h2>{testimonials.name}</h2>
-                <p>{testimonials.feedback}</p>
-            </div>
-            </div>
-          )
-        })}
+      <div className="mt-10">
+        <Footer />
       </div>
-
-      <Footer />
-    </div>
-  )
-}
+    </>
+  );
+};
 
 export default Testimonials;
