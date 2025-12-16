@@ -41,7 +41,7 @@ const Testimonials = () => {
           {testimonialsData.map(({ image, name, feedback }, idx) => (
             <article
               key={idx}
-              className="bg-green-300/90 rounded-lg shadow-md p-6 flex flex-col items-center text-center"
+              className="bg-green-300/10 border border-my-custom-blue-dark rounded shadow-md p-6 flex flex-col items-center text-center h-[300px]"
               aria-label={`Testimonial from ${name}`}
             >
               <img
@@ -52,7 +52,7 @@ const Testimonials = () => {
               <h3 className="font-semibold text-lg text-my-custom-warm mb-2">
                 {name}
               </h3>
-              <p className="text-gray-700 text-sm">{feedback}</p>
+              <p className="text-gray-900 text-sm">{feedback}</p>
             </article>
           ))}
         </div>
