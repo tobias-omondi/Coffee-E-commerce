@@ -15,14 +15,14 @@ h3, h4, h5, h6, p, a, li,span, div {
 }
 
 .logo{
-  font-family: 'Pencerio', cursive;
+  font-family: 'Panchang', sans-serif;
   color: #FFF8E1;
   font-weight: bold;
 }
 .span-logo{
-  color : black;
-  font-family: 'Pencerio', cursive;
-  font-weight: bold;
+  color: #FFF8E1;
+  font-family: 'Panchang', sans-serif;
+  font-weight: extrabold;
 }
 
  body, html {

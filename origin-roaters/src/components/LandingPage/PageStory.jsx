@@ -3,7 +3,7 @@ import CoffeePackage3d from '../threedPackage/CoffeePackage33d';
 
 const PageStory = () => {
   return (
-    <div className='flex flex-col md:flex-row justify-center items-center gap-10 px-5 py-10 m-10'>
+    <div className='flex flex-col-reverse md:flex-row justify-center items-center gap-10 md:px-5 py-10 md:m-10 px-3'>
 
       <div><CoffeePackage3d /></div>
       
@@ -11,7 +11,7 @@ const PageStory = () => {
       <div className='w-full flex flex-col space-y-6'>
 
         {/* heading pargh */}
-        <h1 className='text-my-custom-warm text-3xl md:text-5xl font-black text-start  w-full md:w-full md:ml-auto space-x-5'>
+        <h1 className='text-my-custom-warm text-xl md:text-4xl font-black text-start  w-full md:w-full md:ml-auto space-x-5'>
           FROM OUR ROASTERY TO YOUR MORNING RITUAL IN THREE EASY STEPS
         </h1>
 

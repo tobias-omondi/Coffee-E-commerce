@@ -12,3 +12,10 @@
   border-radius: 25px;
   border: 1px solid rgba(243, 242, 242, 0.15);
 }
+
+@media screen and (max-width :480px) {
+  .navbar-background {
+  padding: 3px;
+}
+
+}

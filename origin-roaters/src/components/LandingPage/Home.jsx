@@ -17,6 +17,7 @@ const Home = () => {
         muted
         loop
         playsInline
+        preload='none'
       />
 
       {/* Overlay content */}

@@ -34,16 +34,29 @@ const saleShopping = [
 
 const ShowSell = () => {
   return (
-      <div className='flex flex-col md:flex-row justify-evenly items-center text-center'>
-        {saleShopping.map((item) => (
-          <div key={item.id} className='flex flex-col items-center gap-3 md:gap-6 w-3/4 ' > 
-          <img src ={item.image} alt = "sale item" className='w-full md:w-[400px] object-cover h-[350px] md:h-[400px] rounded-xl' />
-          <h2 className='text-my-custom-warm font-bold text-2xl'>{item.title}</h2>
-          <p className='text-gray-900'> {item.description }</p>
-          <h5 className='text-gray-900 italic font-medium text-xl'>{item.price}</h5>
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 items-start justify-items-center">
+      {saleShopping.map((item) => (
+        <article
+          key={item.id}
+          className="bg-white/5 rounded-xl shadow-sm flex flex-col overflow-hidden w-[300px] h-[420px] md:w-[420px] md:h-[440px]"
+        >
+          <div className="w-full h-4/5 overflow-hidden">
+            <img src={item.image} alt={item.title} className="w-full h-full object-cover" loading="lazy" />
           </div>
-        ))}
-      </div>
+
+          <div className="p-4 flex-1 flex flex-col justify-between">
+            <div>
+              <h2 className="text-my-custom-warm font-bold text-lg">{item.title}</h2>
+              <p className="text-gray-300 mt-2 text-sm">{item.description}</p>
+            </div>
+
+            <div className="mt-4">
+              <h5 className="text-amber-300 italic font-medium text-lg">{item.price}</h5>
+            </div>
+          </div>
+        </article>
+      ))}
+    </div>
   )
 }
 

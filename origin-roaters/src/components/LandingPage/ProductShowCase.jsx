@@ -23,21 +23,21 @@ const coffeeProducts = [
 
 const ProductShowCase = () => {
   return (
-      <div className='m-10 overflow-hidden'> 
-        <h1 className='text-3xl md:text-5xl font-bold text-my-custom-warm'>TASTE THE ORIGIN</h1>
+      <div className='mt-10 overflow-hidden'> 
+        <h1 className='text-2xl md:text-4xl font-bold text-my-custom-warm px-4'>TASTE THE ORIGIN</h1>
         
-      <div className='flex flex-col md:flex-row justify-center items-center mt-10'>
+      <div className='flex flex-col md:flex-row justify-center items-center mt-10 md:px-10 px-5 gap-10'>
         {coffeeProducts.map((product) => (
-          <div key={product.id} className='w-full'>
+          <div key={product.id} className='md:w-full gap-10'>
             
             {/* only show image if it exists */}
             {product.image && (
-              <img src={product.image} alt="coffee product" className='rounded h-[450px] w-[700px] object-cover'/>
+              <img src={product.image} alt="coffee product" className='rounded h-[400px] w-[700px] object-cover'/>
             )}
 
             <div className='flex flex-row justify-between w-full '> 
             {/* only show name if it exists */}
-            {product.name && <h4 className='text-xl italic font-bold text-my-custom-warm'>{product.name}</h4>}
+            {product.name && <h4 className='text-xl italic font-bold text-gray-900'>{product.name}</h4>}
 
             {/* only show price if it exists */}
             {product.price && <p className='text-gray-900 text italic'>{product.price}</p>}
