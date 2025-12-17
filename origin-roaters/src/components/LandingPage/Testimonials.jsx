@@ -41,7 +41,7 @@ const Testimonials = () => {
           {testimonialsData.map(({ image, name, feedback }, idx) => (
             <article
               key={idx}
-              className="bg-green-300/10 border border-my-custom-blue-dark rounded shadow-md p-6 flex flex-col items-center text-center h-[300px]"
+              className="bg-green-300/10 border border-amber-300 rounded shadow-md p-6 flex flex-col items-center text-center h-[300px]"
               aria-label={`Testimonial from ${name}`}
             >
               <img

@@ -37,7 +37,7 @@ const ProductShowCase = () => {
 
             <div className='flex flex-row justify-between w-full '> 
             {/* only show name if it exists */}
-            {product.name && <h4 className='text-xl italic font-bold text-gray-900'>{product.name}</h4>}
+            {product.name && <h4 className='text-xl italic font-bold text-amber-300'>{product.name}</h4>}
 
             {/* only show price if it exists */}
             {product.price && <p className='text-gray-900 text italic'>{product.price}</p>}
