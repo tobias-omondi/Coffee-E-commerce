@@ -1,6 +1,6 @@
 // import images here
-import coffeeimage1 from '/src/assets/coffee-563800_1280.avif'
-import coffeeimage2 from '/src/assets/coffee-3759024_1280.avif'
+import coffeeimage1 from '/src/assets/farmer_coffee.webp'
+import coffeeimage2 from '/src/assets/coffee_beans.webp'
 
 const coffeeProducts = [
   {

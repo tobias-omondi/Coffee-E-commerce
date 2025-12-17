@@ -1,9 +1,9 @@
 import React from 'react'
 
 // import images here
-import SalesImage1 from "/src/assets/package_cofe.avif";
-import SalesImage2 from "/src/assets/coffee-bag.avif";
-import SalesImage3 from "/src/assets/coffee machine.avif";
+import SalesImage1 from "/src/assets/coffee_package.webp";
+import SalesImage2 from "/src/assets/coffee_bag.webp";
+import SalesImage3 from "/src/assets/coffee machine.webp";
 
 
 const saleShopping = [
