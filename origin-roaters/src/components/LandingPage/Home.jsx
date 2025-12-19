@@ -22,9 +22,9 @@ const Home = () => {
 
       {/* Overlay content */}
       <div className="absolute top-0 md:top-50 left-0 w-full h-full flex flex-col items-center justify-center">
-        {/* <h1 className="text-my-custom-warm text-5xl lg:text-[8rem] font-black text-start px-4">
+        <h1 className="text-my-custom-warm text-5xl lg:text-[8rem] font-black text-start px-4">
           FROM FARM TO CUP
-        </h1> */}
+        </h1>
         {/* <h1 className='text-my-custom-warm text-5xl md:text-[7rem] font-medium text-center'>
        
         </h1> */}
