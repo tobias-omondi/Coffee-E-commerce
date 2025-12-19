@@ -23,10 +23,10 @@ const Navbar = () => {
 
   return (
     <nav className='w-4/5 md:w-3/4 navbar-background flex items-center justify-between rounded-3xl mx-auto px-3 py-3 relative'>
-      <h1> <span className='span-logo'> RS </span> </h1>
+      <h1> <span className='span-logo text-amber-300'> RS </span> </h1>
 
       {/* Desktop links */}
-      <ul className='hidden md:flex text-my-custom-warm flex-row gap-5 px-5 font-normal items-center'>
+      <ul className='hidden md:flex text-my-custom-warm font-black flex-row gap-5 px-5 items-center'>
         <NavLinks />
       </ul>
 

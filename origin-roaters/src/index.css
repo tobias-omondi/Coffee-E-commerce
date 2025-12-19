@@ -16,11 +16,11 @@ h3, h4, h5, h6, p, a, li,span, div {
 
 .logo{
   font-family: 'Panchang', sans-serif;
-  color: #FFF8E1;
+  /* color: #FFF8E1; */
   font-weight: bold;
 }
 .span-logo{
-  color: #FFF8E1;
+  /* color: #FFF8E1; */
   font-family: 'Panchang', sans-serif;
   font-weight: extrabold;
 }
