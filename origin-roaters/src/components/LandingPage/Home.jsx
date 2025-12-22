@@ -1,7 +1,7 @@
 import React from 'react'
 import './Home.css'
 import Navbar from '../NavbarSection/Navbar'
-import coffee from "/src/assets/cafe-7441434_1280.png"
+import coffee from "/src/assets/hero_image.jpg"
 
 const Home = () => {
   return (
@@ -11,7 +11,7 @@ const Home = () => {
       </div>
     <div className="relative min-h-[90vh] md:h-screen overflow-hidden">
       {/* Video */}
-      <video
+      {/* <video
         src="https://res.cloudinary.com/djyfoquip/video/upload/4821909-uhd_4096_2160_25fps_djpljv.mp4"
         className="absolute top-0 left-0 object-cover home-video h-full w-full backdrop-brightness-50"
         autoPlay
@@ -19,13 +19,13 @@ const Home = () => {
         loop
         playsInline
         preload='none'
-      />
+      /> */}
 
-      {/* <img src={coffee} alt='coffee-background' className="absolute top-0 left-0 object-cover inset-0 h-screen w-full backdrop-brightness-50"/> */}
+      <img src={coffee} alt='coffee-background' className="absolute top-0 left-0 object-cover inset-0 h-screen w-full backdrop-brightness-75"/>
 
       {/* Overlay content: pinned to bottom-right and responsive */}
-      <div className="absolute inset-0 w-full h-full flex items-end justify-end p-4 md:p-8 lg:p-12">
-        <h1 className="hero-headline text-my-custom-warm text-3xl md:text-6xl lg:text-[5rem] font-black text-right leading-tight max-w-5xl">
+      <div className="absolute inset-0 w-full h-full flex items-center justify-start p-4 md:p-8 lg:p-12">
+        <h1 className="hero-headline text-my-custom-warm text-3xl md:text-6xl lg:text-[5rem] font-black text-start leading-tight max-w-5xl">
           FROM FARM TO CUP
         </h1>
         {/* <h1 className='text-my-custom-warm text-5xl md:text-[7rem] font-medium text-center'>
