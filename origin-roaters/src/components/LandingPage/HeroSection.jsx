@@ -37,9 +37,9 @@ const HeroSection = () => {
         <PageStory />
       </div>
       {/* testimonials */}
-      <div>
+      {/* <div>
         <Testimonials />
-      </div>
+      </div> */}
     </div>
   )
 }

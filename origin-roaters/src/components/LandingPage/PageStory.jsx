@@ -1,8 +1,10 @@
 import React from 'react'
 import CoffeePackage3d from '../threedPackage/CoffeePackage33d';
+import Footer from '../FooterPage/Footer';
 
 const PageStory = () => {
   return (
+    <>
     <div className='flex flex-col-reverse md:flex-row justify-center items-center gap-10 md:px-5 py-10 md:m-10 px-3'>
 
       <div><CoffeePackage3d /></div>
@@ -33,8 +35,9 @@ const PageStory = () => {
           straight to your door.
         </p>
       </div>
-
     </div>
+    <Footer />
+    </>
   )
 }
 

@@ -1,9 +1,9 @@
 import React from 'react'
 
 // import images here
-import SalesImage1 from "/src/assets/coffee_package.webp";
-import SalesImage2 from "/src/assets/coffee_bag.webp";
-import SalesImage3 from "/src/assets/coffee machine.webp";
+import SalesImage1 from "/src/assets/nescafee.webp";
+import SalesImage2 from "/src/assets/coffee_seeds.jpg";
+import SalesImage3 from "/src/assets/coffeebrand_cup.webp";
 
 
 const saleShopping = [
@@ -38,10 +38,10 @@ const ShowSell = () => {
       {saleShopping.map((item) => (
         <article
           key={item.id}
-          className="bg-white/5 rounded-xl shadow-sm flex flex-col overflow-hidden w-[300px] h-[420px] md:w-[420px] md:h-[440px]"
+          className="bg-white/5 rounded shadow-sm flex flex-col overflow-hidden w-[350px] h-[700px] md:w-[420px] md:h-[500px]"
         >
-          <div className="w-full h-4/5 overflow-hidden">
-            <img src={item.image} alt={item.title} className="w-full h-full object-cover" loading="lazy" />
+          <div className="w-full h-screen overflow-hidden">
+            <img src={item.image} alt={item.title} className="w-full md:h-full object-cover" loading="lazy" />
           </div>
 
           <div className="p-4 flex-1 flex flex-col justify-between">
