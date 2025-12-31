@@ -1,7 +1,7 @@
 import React from 'react'
 
 // import images here
-import SalesImage1 from "/src/assets/nescafee.webp";
+import SalesImage1 from "/src/assets/coffeeseeds.webp";
 import SalesImage2 from "/src/assets/coffee_seeds.jpg";
 import SalesImage3 from "/src/assets/coffeebrand_cup.webp";
 
