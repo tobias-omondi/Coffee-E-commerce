@@ -36,7 +36,7 @@ const Navbar = () => {
         <h1> <span className='span-logo text-amber-300'> RS </span> </h1>
       </Link>
       {/* Desktop links */}
-      <ul className='hidden md:flex text-my-custom-warm font-black flex-row gap-5 px-5 items-center'>
+      <ul className='hidden md:flex text-white font-black flex-row gap-5 px-5 items-center'>
         <NavLinks />
       </ul>
 

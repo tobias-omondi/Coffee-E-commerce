@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
   @theme {
-      --color-my-custom-warm: #FFF8E1 ; 
+      --color-my-custom-warm: #1E1E1E ; 
       --color-my-custom-green-light:  #038363 ;
       --color-my-custom-blue-dark: #21618c;
     }
@@ -26,7 +26,7 @@ h3, h4, h5, h6, p, a, li,span, div {
 }
 
  body, html {
-  background-color: #038363 ;
+  background-color: #FFFFF0 ;
  
 }
 /* * {
