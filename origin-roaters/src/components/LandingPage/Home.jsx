@@ -1,7 +1,6 @@
 import React from 'react'
 import './Home.css'
 import Navbar from '../NavbarSection/Navbar'
-import coffee from "/src/assets/hero_image.jpg"
 
 const Home = () => {
   return (
@@ -15,29 +14,25 @@ const Home = () => {
       {/* Hero Section */}
       <div className="relative h-screen overflow-hidden">
         
-        {/* Background Image */}
-        <img
-          src={coffee}
-          alt="coffee-background"
-          className="absolute inset-0 w-full h-full object-cover brightness-75"
-        />
-
         {/* Overlay Content */}
         <div className="absolute inset-0 flex items-center">
-          <div className="max-w-6xl px-6 md:px-12 lg:px-20 space-y-6">
+          <div className="w-screen space-y-3 ">
 
-            <h1 className="hero-headline text-white text-4xl md:text-6xl lg:text-[5rem] font-black leading-tight">
+            <h1 className=" text-white text-4xl md:text-6xl lg:text-[10rem] font-black text-center">
               FROM FARM TO CUP
             </h1>
 
-            <p className="text-white font-light text-lg md:text-2xl max-w-2xl">
+            <div className='px-10 space-x-2'>
+            <p className="text-white font-light md:text-xl max-w-xl">
               Discover specialty coffee beans, ethically sourced and roasted fresh in Nairobi.
               Delivered to your door within 48 hours.
             </p>
 
-            <button className="inline-block bg-amber-300 px-6 py-3 text-lg font-semibold text-gray-800 rounded hover:bg-amber-400 transition">
+            <button className="inline-block bg-amber-300 px-3 py-3 text font-semibold text-gray-800 rounded hover:bg-amber-400 transition mt-5">
               ORDER NOW
             </button>
+
+            </div>
 
           </div>
         </div>
