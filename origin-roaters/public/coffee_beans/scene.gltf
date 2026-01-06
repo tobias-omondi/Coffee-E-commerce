@@ -1,0 +1,333 @@
+{
+  "accessors": [
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 7686,
+      "max": [
+        8.64706039428711,
+        3.1696059703826904,
+        2.649322986602783
+      ],
+      "min": [
+        -6.053617000579834,
+        -9.341144561767578,
+        -6.185506820678711
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 92232,
+      "componentType": 5126,
+      "count": 7686,
+      "max": [
+        0.9999967813491821,
+        1.0,
+        0.9998230934143066
+      ],
+      "min": [
+        -0.9999967813491821,
+        -1.0,
+        -0.9999999403953552
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 7686,
+      "max": [
+        0.5568627715110779,
+        0.43529412150382996,
+        0.3137255012989044,
+        1.0
+      ],
+      "min": [
+        0.3843137323856354,
+        0.21960784494876862,
+        0.05098039284348488,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 46080,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 184464,
+      "componentType": 5126,
+      "count": 7686,
+      "max": [
+        10.577320098876953,
+        10.048410415649414,
+        2.824414014816284
+      ],
+      "min": [
+        -11.508769989013672,
+        -2.876136064529419,
+        -6.445849895477295
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 276696,
+      "componentType": 5126,
+      "count": 7686,
+      "max": [
+        0.9996744394302368,
+        0.9999939799308777,
+        0.9998230934143066
+      ],
+      "min": [
+        -0.999518096446991,
+        -0.9999990463256836,
+        -0.9997720718383789
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 122976,
+      "componentType": 5126,
+      "count": 7686,
+      "max": [
+        0.5568627715110779,
+        0.43529412150382996,
+        0.3137255012989044,
+        1.0
+      ],
+      "min": [
+        0.3843137323856354,
+        0.21960784494876862,
+        0.05098039284348488,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 184320,
+      "componentType": 5125,
+      "count": 46080,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 368928,
+      "componentType": 5126,
+      "count": 5124,
+      "max": [
+        6.881406784057617,
+        15.723919868469238,
+        4.557844161987305
+      ],
+      "min": [
+        -9.512347221374512,
+        7.872769832611084,
+        -4.943600177764893
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 430416,
+      "componentType": 5126,
+      "count": 5124,
+      "max": [
+        0.9998160004615784,
+        0.9997147917747498,
+        0.9995548725128174
+      ],
+      "min": [
+        -0.9998504519462585,
+        -0.9996832609176636,
+        -0.9998287558555603
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 245952,
+      "componentType": 5126,
+      "count": 5124,
+      "max": [
+        0.5568627715110779,
+        0.43529412150382996,
+        0.3137255012989044,
+        1.0
+      ],
+      "min": [
+        0.3843137323856354,
+        0.21960784494876862,
+        0.05098039284348488,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 368640,
+      "componentType": 5125,
+      "count": 30720,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "harri.wildridge (https://sketchfab.com/harri.wildridge)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/coffee-beans-738f026b27c34220b055ef05616dadf2",
+      "title": "Coffee Beans"
+    },
+    "generator": "Sketchfab-14.38.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 491520,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 491904,
+      "byteOffset": 491520,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 327936,
+      "byteOffset": 983424,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1311360,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "None",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.6
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object_0",
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 2,
+            "NORMAL": 1,
+            "POSITION": 0
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object_1",
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 6,
+            "NORMAL": 5,
+            "POSITION": 4
+          },
+          "indices": 7,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object_2",
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 10,
+            "NORMAL": 9,
+            "POSITION": 8
+          },
+          "indices": 11,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2,
+        3,
+        4
+      ],
+      "name": "CoffeeBeans.obj.cleaner.materialmerger.gles"
+    },
+    {
+      "mesh": 0,
+      "name": "Object_2"
+    },
+    {
+      "mesh": 1,
+      "name": "Object_3"
+    },
+    {
+      "mesh": 2,
+      "name": "Object_4"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 import React from 'react'
-import CoffeePackage3d from '../threedPackage/CoffeePackage33d';
+import CoffeePackage3d from '../threedPackage/CoffeePackage3d.jsx';
+
 import Footer from '../FooterPage/Footer';
 
 const PageStory = () => {
@@ -8,6 +9,8 @@ const PageStory = () => {
     <div className='flex flex-col-reverse md:flex-row justify-center items-center gap-10 md:px-5 py-10 md:m-10 px-3'>
 
       <div><CoffeePackage3d /></div>
+
+     
       
       {/* Added space-y-6 to create uniform vertical spacing between the heading and paragraphs */}
       <div className='w-full flex flex-col space-y-6'>

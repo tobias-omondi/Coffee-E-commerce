@@ -4,7 +4,6 @@ import ProductShowCase from './ProductShowCase'
 import ProductStory from './ProductStory'
 import ShowSell from './ShowSell'
 import PageStory from './PageStory'
-import Testimonials from './Testimonials'
 
 const HeroSection = () => {
   return (
