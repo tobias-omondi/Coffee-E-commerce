@@ -32,7 +32,7 @@ const Home = () => {
         </div>
 
         {/* seed theed componets */}
-        <div className='flex items-center justify-center absolute top-0 left-0 right-0 md:w-full w-[200] z-30'>
+        <div className='flex items-center justify-center absolute bottom-5 lg:top-16 left-0 right-0 md:w-full z-30'>
           <SeedThree />
         </div>
       </div>
