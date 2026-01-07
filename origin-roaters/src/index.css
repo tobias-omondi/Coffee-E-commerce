@@ -26,10 +26,12 @@ h3, h4, h5, h6, p, a, li,span, div {
   font-weight: extrabold;
 }
 
- body, html {
+body, html {
   background-color: #8B4513;
- 
+  background-image: radial-gradient(rgba(255, 255, 255, 0.05) 2px, transparent 3px);
+  background-size: 20px 20px;
 }
+
 /* * {
    margin: 0;
   padding: 0;

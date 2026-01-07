@@ -8,31 +8,12 @@ import PageStory from './PageStory'
 const HeroSection = () => {
   return (
     <div>
-
-      {/* hero section */}
-      <div>
-        <Home />
-      </div>
-
-      {/* product story */}
-
-      <div>
-        <ProductStory />
-      </div>
-
-      {/* sales story */}
-
-      <div>
-        <ShowSell />
-      </div>
-
-     <div>
-        <PageStory />
-      </div>
-      {/* testimonials */}
-      {/* <div>
-        <Testimonials />
-      </div> */}
+      <section id="hero"><Home /></section>
+      <section id='product-show'><ProductShowCase /></section>
+      <section id="product-story"><ProductStory /></section>
+      <section id="sales-story"><ShowSell /></section>
+      <section id="page-story"><PageStory /></section>
+      {/* <section id="testimonials"><Testimonials /></section> */}
     </div>
   )
 }
