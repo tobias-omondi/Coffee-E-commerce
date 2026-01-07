@@ -14,12 +14,6 @@ const HeroSection = () => {
         <Home />
       </div>
 
-      {/* Product showcase */}
-
-      <div>
-        <ProductShowCase />
-      </div>
-
       {/* product story */}
 
       <div>

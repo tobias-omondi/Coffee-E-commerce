@@ -23,7 +23,7 @@ const coffeeProducts = [
 
 const ProductShowCase = () => {
   return (
-      <div className='mt-10 overflow-hidden'> 
+      <div className='relative min-h-screen overflow-visible lg:pt-32'> 
         <h1 className='text-2xl md:text-4xl font-bold text-my-custom-warm px-4'>TASTE THE ORIGIN</h1>
         
       <div className='flex flex-col md:flex-row justify-center items-center mt-10 md:px-10 px-5 gap-10'>

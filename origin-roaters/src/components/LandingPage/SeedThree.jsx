@@ -6,7 +6,7 @@ const SeedThree = () => {
 
   const {scene} = useGLTF ('/coffee_beans/scene.gltf')
   return (
-    <div className='w-full h-[400px] sm:h-[400px] md:h-[500px] lg:w-[500px] lg:h-screen'>
+    <div className='w-screen h-[400px] sm:h-[400px] md:h-[650px] lg:h-[630px]'>
       <Canvas camera={{ position: [-3, 4, 5], fov: 75}}  gl={{ antialias: true }} dpr={2}>
         <hemisphereLight intensity={0.1} skyColor="green" groundColor="gray" />
           <ambientLight intensity={0.1} />
