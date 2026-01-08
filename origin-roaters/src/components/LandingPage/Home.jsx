@@ -18,7 +18,7 @@ const Home = () => {
 
         <div className="flex items-center justify-center mt-24 text-center">
           {/* Heading */}
-          <h1 className="text-amber-950 text-5xl md:text-[7rem] lg:text-[11rem] font-black text-center leading-tight">
+          <h1 className="text-my-custom-warm text-5xl md:text-[7rem] lg:text-[11rem] font-black text-center leading-tight">
             FARM TO CUP
           </h1>
         </div>
