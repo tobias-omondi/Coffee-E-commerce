@@ -18,7 +18,7 @@ const Home = () => {
 
         <div className="flex items-center justify-center mt-24 text-center">
           {/* Heading */}
-          <h1 className="text-my-custom-warm text-5xl md:text-[7rem] lg:text-[11rem] font-black text-center leading-tight">
+          <h1 className="text-amber-900 text-5xl md:text-[7rem] lg:text-[11rem] font-black text-center leading-tight">
             FARM TO CUP
           </h1>
         </div>
@@ -30,7 +30,7 @@ const Home = () => {
 
         {/* Subheading */}
         <div className="px-3 md:px-4 lg:px-10 items-start absolute z-50 bottom-16 md:mt-5 lg:bottom-3">
-          <p className="text-my-custom-warm max-w-3/4 md:max-w-2/3 lg:max-w-1/2 md:text-xl">
+          <p className="text-gray-700 max-w-3/4 md:max-w-2/3 lg:max-w-1/2 md:text-xl">
             Discover specialty coffee beans, ethically sourced and roasted fresh in Nairobi. Delivered to your door within 48 hours.
           </p>
         </div>

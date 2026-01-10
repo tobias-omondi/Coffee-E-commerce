@@ -1,9 +1,9 @@
 import React from 'react'
 
 // import images here
-import SalesImage1 from "/src/assets/coffeeseeds.webp";
+import SalesImage1 from "/src/assets/coffee_beans.jpg";
 import SalesImage2 from "/src/assets/coffee_seeds.jpg";
-import SalesImage3 from "/src/assets/coffeebrand_cup.webp";
+import SalesImage3 from "/src/assets/coffee_beans1.jpg";
 
 
 const saleShopping = [
@@ -46,12 +46,12 @@ const ShowSell = () => {
 
           <div className="p-4 flex-1 flex flex-col justify-between">
             <div>
-              <h2 className="text-my-custom-warm font-bold text-lg">{item.title}</h2>
-              <p className="text-gray-300 mt-2 text-sm">{item.description}</p>
+              <h2 className="text-gray-900 font-bold text-lg">{item.title}</h2>
+              <p className="text-gray-700 mt-2 text-sm">{item.description}</p>
             </div>
 
             <div className="mt-4">
-              <h5 className="text-amber-300 italic font-medium text-lg">{item.price}</h5>
+              <h5 className="text-green-600 italic font-medium text-lg">{item.price}</h5>
             </div>
           </div>
         </article>

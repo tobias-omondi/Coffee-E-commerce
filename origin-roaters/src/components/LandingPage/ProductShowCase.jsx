@@ -24,7 +24,7 @@ const coffeeProducts = [
 const ProductShowCase = () => {
   return (
       <div className='relative min-h-screen overflow-visible lg:pt-32'> 
-        <h1 className='text-2xl md:text-4xl font-bold text-my-custom-warm px-4'>TASTE THE ORIGIN</h1>
+        <h1 className='text-2xl md:text-4xl font-bold text-gray-900 px-4'>TASTE THE ORIGIN</h1>
         
       <div className='flex flex-col md:flex-row justify-center items-center mt-10 md:px-10 px-5 gap-10'>
         {coffeeProducts.map((product) => (
@@ -37,7 +37,7 @@ const ProductShowCase = () => {
 
             <div className='flex flex-row justify-between w-full '> 
             {/* only show name if it exists */}
-            {product.name && <h4 className='text-xl italic font-bold text-amber-300'>{product.name}</h4>}
+            {product.name && <h4 className='text-xl italic font-bold text-green-600'>{product.name}</h4>}
 
             {/* only show price if it exists */}
             {product.price && <p className='text-gray-900 text italic'>{product.price}</p>}
