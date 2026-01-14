@@ -8,7 +8,7 @@ class User(Base):
   __tablename__ = "users"
   id = Column (Integer, primary_key=True, index =True)
   email = Column(String, unique = True, index = True )
-  hashed_password = Column(String =255 )
+  hashed_password = Column(String (255) )
   FullName = Column(String)
   Phone_Number = Column(Integer)
   is_verified = Column(Boolean, default =0)
